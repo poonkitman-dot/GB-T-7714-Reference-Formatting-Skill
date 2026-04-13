@@ -2,6 +2,8 @@
 # 📚 GB/T 7714 Reference Formatting Skill
 一个基于 **GB/T 7714-2015《信息与文献 参考文献著录规则》** 的智能参考文献生成工具，支持自动识别文献类型、处理不确定性，并可扩展输出 APA / Chicago 格式。
 ---
+claude编写，chatgpt修改和gemini测试，目的是输入一个网址或者一些必要信息可以生成参考文献。
+
 ## ✨ Features
 
 * ✅ 自动识别文献类型（M / J / EB / R 等）
@@ -106,13 +108,13 @@ Input → Type Detection → Field Extraction → Normalization → Output
 作者：国家数据局
 日期：2025.08.28
 引用日期：2026年4月13日
-URL：https://xxx
+URL：https://www.nda.gov.cn/sjj/swdt/xwfb/0830/20250830210000366789341_pc.html
 ```
 
 ### 输出
 
 ```
-国家数据局. 高质量数据集建设指引[EB/OL]. (2025-08-28)[2026-04-13]. URL.
+国家数据局. 高质量数据集建设指引[EB/OL]. (2025-08-28)[2026-04-13].https://www.nda.gov.cn/sjj/swdt/xwfb/0830/20250830210000366789341_pc.html.
 ```
 
 ---
@@ -133,11 +135,6 @@ URL：https://xxx
 * 多语言支持（中 / 英）
 * 与 Zotero / EndNote 集成
 
----
-
-## 📄 License
-
-MIT License
 
 ---
 
